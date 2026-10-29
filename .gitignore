@@ -1,0 +1,43 @@
+# Local runtime data and generated files
+.local-data/
+work/
+outputs/
+build/
+DerivedData/
+.build/
+
+# macOS / Xcode user state
+.DS_Store
+._*
+xcuserdata/
+*.xcuserstate
+*.xcarchive
+*.dSYM/
+*.ipa
+
+# Signing and local secrets
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.cer
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
+Config/*.local.*
+
+# Personal workbooks and runtime snapshots
+*.xlsx
+*.xls
+*.xlsm
+*.bookmark
+settings.json
+schedule.json
+
+# Python and release artifacts
+__pycache__/
+*.py[cod]
+*.zip
+SHA256SUMS

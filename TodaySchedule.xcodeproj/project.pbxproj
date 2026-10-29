@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15B13C31CA54BBDA7113502 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A15B13C31CA54BBDA7113501; };
+		A15B13C31CA54BBDA7113402 /* ExcelLiveWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B13C31CA54BBDA7113401; };
+		A15B13C31CA54BBDA7113302 /* CompletionStrikeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B13C31CA54BBDA7113301; };
+		A15B13C31CA54BBDA7113201 /* XLSXCompletionWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A15B13C31CA54BBDA7113202; };
+		0C3F831E8613A00B3AD3388A /* Sources/Shared/Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FFB032FF49F5982D8D0B0 /* Sources/Shared/Schedule.swift */; };
+		1905935DB7D43A22A964345B /* Sources/Shared/TodayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1998F7971B6401E1FBC7EB /* Sources/Shared/TodayCard.swift */; };
+		1F73E07FEE91EF94E412570D /* Sources/App/XLSXReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9771771BE34C50581BBB5B /* Sources/App/XLSXReader.swift */; };
+		3634B58B527D358FE5D63754 /* Sources/Shared/Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6FFB032FF49F5982D8D0B0 /* Sources/Shared/Schedule.swift */; };
+		6CCA89E5181BCCEAEAC49A17 /* Sources/App/TodayScheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C143D99B2A44FD08F4F65B28 /* Sources/App/TodayScheduleApp.swift */; };
+		73E5E4B6ECE26DCF2BAF3E72 /* TodayScheduleWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 62810238661CD51B729ACF75 /* TodayScheduleWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9D98184B5BD9377F1E7B280E /* Sources/Shared/TodayCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1998F7971B6401E1FBC7EB /* Sources/Shared/TodayCard.swift */; };
+		D992022EB28E2EF10DBF9186 /* Sources/Widget/TodayWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBCAC096D20C7441FAE2D2B /* Sources/Widget/TodayWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D1CEA344353E26BA6F1565ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6F4DA8D93E88A08220E03B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 568889CE84FC139A640015BA;
+			remoteInfo = TodayScheduleWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD02E14E2841DFBD22AB2CAA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				73E5E4B6ECE26DCF2BAF3E72 /* TodayScheduleWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A15B13C31CA54BBDA7113501 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Config/AppIcon.icns; sourceTree = "<group>"; };
+		A15B13C31CA54BBDA7113401 /* ExcelLiveWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/App/ExcelLiveWriter.swift; sourceTree = "<group>"; };
+		A15B13C31CA54BBDA7113301 /* CompletionStrikeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/App/CompletionStrikeStore.swift; sourceTree = "<group>"; };
+		A15B13C31CA54BBDA7113202 /* XLSXCompletionWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/App/XLSXCompletionWriter.swift; sourceTree = "<group>"; };
+		4BBCAC096D20C7441FAE2D2B /* Sources/Widget/TodayWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Widget/TodayWidget.swift; sourceTree = "<group>"; };
+		62810238661CD51B729ACF75 /* TodayScheduleWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = TodayScheduleWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C143D99B2A44FD08F4F65B28 /* Sources/App/TodayScheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/App/TodayScheduleApp.swift; sourceTree = "<group>"; };
+		C2B6AF95E5FB6AF04547C8EA /* TodaySchedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = TodaySchedule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6FFB032FF49F5982D8D0B0 /* Sources/Shared/Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Shared/Schedule.swift; sourceTree = "<group>"; };
+		DB9771771BE34C50581BBB5B /* Sources/App/XLSXReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/App/XLSXReader.swift; sourceTree = "<group>"; };
+		FE1998F7971B6401E1FBC7EB /* Sources/Shared/TodayCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sources/Shared/TodayCard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F91A57B11B30F1A7980649D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F49E89B54F2EBA51A51F5B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EB2D8158FC6EF9EB19CB439 = {
+			isa = PBXGroup;
+			children = (
+				CA6FFB032FF49F5982D8D0B0 /* Sources/Shared/Schedule.swift */,
+				FE1998F7971B6401E1FBC7EB /* Sources/Shared/TodayCard.swift */,
+				DB9771771BE34C50581BBB5B /* Sources/App/XLSXReader.swift */,
+				A15B13C31CA54BBDA7113301 /* CompletionStrikeStore.swift */,
+				A15B13C31CA54BBDA7113401 /* ExcelLiveWriter.swift */,
+				A15B13C31CA54BBDA7113501 /* AppIcon.icns */,
+				A15B13C31CA54BBDA7113202 /* XLSXCompletionWriter.swift */,
+				C143D99B2A44FD08F4F65B28 /* Sources/App/TodayScheduleApp.swift */,
+				4BBCAC096D20C7441FAE2D2B /* Sources/Widget/TodayWidget.swift */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2B6AF95E5FB6AF04547C8EA /* TodaySchedule.app */,
+				62810238661CD51B729ACF75 /* TodayScheduleWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0352A6A2FCE048894C87B37E /* TodaySchedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B7E04E20B902D557F0CE008 /* Build configuration list for PBXNativeTarget "TodaySchedule" */;
+			buildPhases = (
+				6805EC6AFDAFDBE18E2FF355 /* Sources */,
+				A15B13C31CA54BBDA7113503 /* Resources */,
+				0F91A57B11B30F1A7980649D /* Frameworks */,
+				AD02E14E2841DFBD22AB2CAA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE311ABE7BBCB35898A8AC0B /* PBXTargetDependency */,
+			);
+			name = TodaySchedule;
+			productName = TodaySchedule;
+			productReference = C2B6AF95E5FB6AF04547C8EA /* TodaySchedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		568889CE84FC139A640015BA /* TodayScheduleWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D9D4DD5F29722503EF94DFF /* Build configuration list for PBXNativeTarget "TodayScheduleWidget" */;
+			buildPhases = (
+				F306C1B2D4B32E804F9C1121 /* Sources */,
+				3F49E89B54F2EBA51A51F5B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodayScheduleWidget;
+			productName = TodayScheduleWidget;
+			productReference = 62810238661CD51B729ACF75 /* TodayScheduleWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6F4DA8D93E88A08220E03B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 2710;
+			};
+			buildConfigurationList = 12ECB39C0EE5375B90DDFB36 /* Build configuration list for PBXProject "TodaySchedule" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = zh_CN;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				zh_CN,
+				en,
+				Base,
+			);
+			mainGroup = 2EB2D8158FC6EF9EB19CB439;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0352A6A2FCE048894C87B37E /* TodaySchedule */,
+				568889CE84FC139A640015BA /* TodayScheduleWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15B13C31CA54BBDA7113503 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A15B13C31CA54BBDA7113502,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6805EC6AFDAFDBE18E2FF355 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3634B58B527D358FE5D63754 /* Sources/Shared/Schedule.swift in Sources */,
+				9D98184B5BD9377F1E7B280E /* Sources/Shared/TodayCard.swift in Sources */,
+				1F73E07FEE91EF94E412570D /* Sources/App/XLSXReader.swift in Sources */,
+				A15B13C31CA54BBDA7113302 /* CompletionStrikeStore.swift in Sources */,
+				A15B13C31CA54BBDA7113402 /* ExcelLiveWriter.swift in Sources */,
+				A15B13C31CA54BBDA7113201 /* XLSXCompletionWriter.swift in Sources */,
+				6CCA89E5181BCCEAEAC49A17 /* Sources/App/TodayScheduleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F306C1B2D4B32E804F9C1121 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C3F831E8613A00B3AD3388A /* Sources/Shared/Schedule.swift in Sources */,
+				1905935DB7D43A22A964345B /* Sources/Shared/TodayCard.swift in Sources */,
+				D992022EB28E2EF10DBF9186 /* Sources/Widget/TodayWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE311ABE7BBCB35898A8AC0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 568889CE84FC139A640015BA /* TodayScheduleWidget */;
+			targetProxy = D1CEA344353E26BA6F1565ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		066776A1C212750E8BE506A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodaySchedule;
+				PRODUCT_NAME = TodaySchedule;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1D8C0C6B1D22EA8C7669B263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		233E90DF3152510FECD70489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodaySchedule.Widget;
+				PRODUCT_NAME = TodayScheduleWidget;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3A77CD648711364E9A877D62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/App.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Config/App-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodaySchedule;
+				PRODUCT_NAME = TodaySchedule;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		670DBE21564EC4BAE6E163DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_ENTITLEMENTS = Config/Widget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Config/Widget-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TodaySchedule.Widget;
+				PRODUCT_NAME = TodayScheduleWidget;
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BFD315016DE16320F7E2120C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12ECB39C0EE5375B90DDFB36 /* Build configuration list for PBXProject "TodaySchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD315016DE16320F7E2120C /* Debug */,
+				1D8C0C6B1D22EA8C7669B263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B7E04E20B902D557F0CE008 /* Build configuration list for PBXNativeTarget "TodaySchedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A77CD648711364E9A877D62 /* Debug */,
+				066776A1C212750E8BE506A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D9D4DD5F29722503EF94DFF /* Build configuration list for PBXNativeTarget "TodayScheduleWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233E90DF3152510FECD70489 /* Debug */,
+				670DBE21564EC4BAE6E163DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6F4DA8D93E88A08220E03B7 /* Project object */;
+}
