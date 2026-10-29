@@ -1,6 +1,6 @@
 # 今日事项
 
-一个由chatgpt6sol制作的原生 macOS 应用和 WidgetKit 桌面小组件，从 Excel 日程表读取当天事项。所有项目文件都保存在本文件夹。
+一个由gpt6sol制作的原生 macOS 应用和 WidgetKit 桌面小组件，从 Excel 日程表读取当天事项。所有项目文件都保存在本文件夹。
 
 当前版本：**1.3（构建 4）**。使用 SwiftUI、WidgetKit 和 App Intents 构建，支持 macOS 14 及以上版本，无第三方库依赖。
 
