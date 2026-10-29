@@ -4,6 +4,9 @@
 
 当前版本：**1.3（构建 4）**。使用 SwiftUI、WidgetKit 和 App Intents 构建，支持 macOS 14 及以上版本，无第三方库依赖。
 
+excel使用样例：
+![excel.png](sample.png)
+
 ## 开始使用
 
 1. 安装完整 Xcode，并打开 `TodaySchedule.xcodeproj`。
